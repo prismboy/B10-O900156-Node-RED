@@ -5,13 +5,13 @@ Node-REDを使用したサンプルフロー集
 
 本Appにてデモンストレーションを実演するための環境
 
-1. Basic認証設定
+- Basic認証設定
  - nginxにBasic認証を設定済み。設定方法はbluemix-settings.js内の環境設定JSONに組み込む。
-1. Node-RED認証設定
+- Node-RED認証設定
  - Node-REDフローエディタにアクセスするためのユーザーID/パスワードを設定済み
 
 ### URL集
-1. デモ環境
+- デモ環境
  - https://B20-O900156-Node-RED.mybluemix.net/demo
 
 ### ファイル構成
