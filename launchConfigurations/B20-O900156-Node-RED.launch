@@ -1,0 +1,25 @@
+{
+	"Params": {
+		"DevMode": {
+			"Instrumentation": {
+				"command": "",
+				"env": {
+					"BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+					"NODE_ENV": "development"
+				},
+				"memory": "384M"
+			},
+			"Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+		},
+		"Name": "B20-O900156-Node-RED",
+		"Target": {
+			"Url": "https://api.ng.bluemix.net",
+			"Org": "24aa1c09-ba4a-4c7a-a97f-8396ae078371",
+			"Space": "3e889141-f5cb-4842-928a-f4acff3fc774"
+		},
+		"Timeout": 60
+	},
+	"Path": "",
+	"ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+	"Type": "Cloud Foundry"
+}
