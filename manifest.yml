@@ -4,7 +4,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: B20-O900156-Node-RED
-  host: B20-O900156-Node-RED
+  host: prismboylab
   disk_quota: 1024M
   env:
     NODE_MODULES_CACHE: false
