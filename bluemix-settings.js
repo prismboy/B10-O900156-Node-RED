@@ -39,7 +39,7 @@ var settings = module.exports = {
     flowFile: "flows.json",
 
     // Basic authentication
-    httpNodeAuth: { user:"jiec-rd", pass: bcrypt.hashSync('jiec4291')},
+    // httpNodeAuth: { user:"jiec-rd", pass: bcrypt.hashSync('jiec4291')},
 
     // Add the bluemix-specific nodes in
     nodesDir: path.join(__dirname,"nodes"),
