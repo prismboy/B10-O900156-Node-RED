@@ -8,9 +8,6 @@ applications:
   disk_quota: 1024M
   env:
     NODE_MODULES_CACHE: false
-    NODE_RED_GUEST_USER: true
-    NODE_RED_USERNAME: jiec-rd
-    NODE_RED_PASSWORD: jiec4291
   services:
   - B20-O040155-stt
   - B20-O040155-tts

@@ -18,7 +18,7 @@ var path = require("path");
 var when = require("when");
 var util = require("util");
 var fs = require("fs");
-var bcrypt = require("bcryptjs");
+// var bcrypt = require("bcryptjs");
 
 var cfenv = require("cfenv");
 var appEnv = cfenv.getAppEnv();

@@ -4,7 +4,6 @@
     "dependencies": {
         "when": "~3.x",
         "nano": "6.2.x",
-        "bcryptjs": "2.x",
         "bcrypt": "1.0.2",
         "cfenv":"~1.0.0",
         "express":"4.x",
