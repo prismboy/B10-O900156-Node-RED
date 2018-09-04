@@ -3,17 +3,15 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: B20-O900156-Node-RED
+  name: B10-O900156-Node-RED
   host: prismboylab
   disk_quota: 1024M
   env:
     NODE_MODULES_CACHE: false
   services:
-  - B20-O040155-stt
-  - B20-O040155-tts
-  - B20-O040155-nlc
-  - B20-O900156-Node-RED-cloudantNoSQLDB
-  - B20-O900156-Conversation-iq
-  - B20-O900156-Personality Insights-0h
-  - B20-O900156-Language Translator
-  - Visual Recognition-cm
+  - availability-monitoring-auto
+  - B10-O900156-NLC
+  - B10-O900156-Node-RED-cloudantNoSQLDB
+  - B10-O900156-Conversation-iq
+  - B10-O900156-Personality Insights-0h
+  - B10-O900156-Language Translator
