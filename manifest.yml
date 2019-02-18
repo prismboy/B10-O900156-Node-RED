@@ -13,5 +13,7 @@ applications:
   - B10-O900156-NLC
   - B10-O900156-Node-RED-cloudantNoSQLDB
   - B10-O900156-Conversation-iq
-  - B10-O900156-Personality Insights-0h
-  - B10-O900156-Language Translator
+  - B10-O900156-Db2
+  - O900156-STT
+  - O900156-TTS
+  - O900156-VR

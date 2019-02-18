@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-bluemix",
-    "version"      : "0.6.0",
+    "version"      : "0.8.0",
     "dependencies": {
         "when": "~3.x",
         "nano": "6.2.x",
@@ -15,7 +15,9 @@
         "node-red-node-openwhisk":"0.x",
         "node-red-node-cf-cloudant":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
-        "node-red-nodes-cf-sqldb-dashdb":"0.x"    },
+        "node-red-contrib-uuid":"0.x",
+        "node-red-nodes-cf-sqldb-dashdb":"0.x" ,
+        "node-red-contrib-db2":"0.x" },
     "scripts": {
         "start": "node --max-old-space-size=384 index.js --settings ./bluemix-settings.js -v"
     },

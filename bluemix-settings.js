@@ -59,6 +59,9 @@ var settings = module.exports = {
 
     functionGlobalContext: {},
 
+	// Db2 settings
+	ibmdbReconnectTime: 30000,
+
     // Configure the logging output
     logging: {
         // Only console logging is currently supported
